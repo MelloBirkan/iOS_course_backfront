@@ -9,8 +9,26 @@ import SwiftUI
 
 struct NavigationView13: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+      NavigationView {
+        NavigationLink("Ir para a tela 2") {
+          Tela2()
+        }
+        .navigationTitle("Tela I")
+      }
     }
+}
+
+struct Tela2: View {
+  @Environment(\.dismiss) var dismiss
+  var body: some View {
+    VStack {
+      Text("Tela 02")
+      Button("voltar") {
+        dismiss()
+      }
+    }
+    .navigationTitle("Tela II")
+  }
 }
 
 #Preview {
