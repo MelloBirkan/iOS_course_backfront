@@ -13,6 +13,7 @@
 		1BF2FEFC2B6DC36B004895CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BF2FEFB2B6DC36B004895CB /* Preview Assets.xcassets */; };
 		1BF2FF032B6DC3AD004895CB /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF2FF022B6DC3AD004895CB /* LoginScreen.swift */; };
 		1BF2FF052B6DC4C6004895CB /* NavegacaoSimples12.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF2FF042B6DC4C6004895CB /* NavegacaoSimples12.swift */; };
+		1BF2FF072B6EFDDE004895CB /* NavigationView13.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF2FF062B6EFDDE004895CB /* NavigationView13.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		1BF2FEFB2B6DC36B004895CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1BF2FF022B6DC3AD004895CB /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 		1BF2FF042B6DC4C6004895CB /* NavegacaoSimples12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavegacaoSimples12.swift; sourceTree = "<group>"; };
+		1BF2FF062B6EFDDE004895CB /* NavigationView13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView13.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				1BF2FEF42B6DC36A004895CB /* iOS_course_backfrontApp.swift */,
 				1BF2FF022B6DC3AD004895CB /* LoginScreen.swift */,
 				1BF2FEF62B6DC36A004895CB /* ContentView.swift */,
+				1BF2FF062B6EFDDE004895CB /* NavigationView13.swift */,
 				1BF2FF042B6DC4C6004895CB /* NavegacaoSimples12.swift */,
 				1BF2FEF82B6DC36B004895CB /* Assets.xcassets */,
 				1BF2FEFA2B6DC36B004895CB /* Preview Content */,
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BF2FF052B6DC4C6004895CB /* NavegacaoSimples12.swift in Sources */,
+				1BF2FF072B6EFDDE004895CB /* NavigationView13.swift in Sources */,
 				1BF2FEF72B6DC36A004895CB /* ContentView.swift in Sources */,
 				1BF2FEF52B6DC36A004895CB /* iOS_course_backfrontApp.swift in Sources */,
 				1BF2FF032B6DC3AD004895CB /* LoginScreen.swift in Sources */,
