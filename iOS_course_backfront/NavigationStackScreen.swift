@@ -34,17 +34,21 @@ struct NavigationStackScreen: View {
     //    NavigationStack Destination
     NavigationStack {
       VStack(spacing: 15){
-        NavigationLink("Ir para Tela 1", value: "Sou a tela 1")
+        NavigationLink("Ir para Tela 1", value: Detail(name: "Mello", color: .blue))
         NavigationLink("Ir para Tela Laranja", value: Color.orange)
       }
-      .navigationDestination(for: String.self) { value in
-        Text(value)
+      .navigationDestination(for: Detail.self) { value in
+        DetailView(model: value)
       }
       .navigationDestination(for: Color.self) { value in
         ZStack {
           value.ignoresSafeArea()
+            .navigationTitle("Tela Laranja")
+            .navigationBarTitleDisplayMode(.inline)
         }
       }
+      // Para ser na propria tela colocamos dentro essa mod
+      .navigationTitle("Telas") // aqui é para a tela principlal
     }
   }
 }
