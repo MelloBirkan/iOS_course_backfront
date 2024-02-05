@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B4D53E42B70661E00F642A4 /* StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4D53E32B70661E00F642A4 /* StepperView.swift */; };
 		1BF2FEF52B6DC36A004895CB /* iOS_course_backfrontApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF2FEF42B6DC36A004895CB /* iOS_course_backfrontApp.swift */; };
 		1BF2FEF72B6DC36A004895CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF2FEF62B6DC36A004895CB /* ContentView.swift */; };
 		1BF2FEF92B6DC36B004895CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BF2FEF82B6DC36B004895CB /* Assets.xcassets */; };
@@ -15,9 +16,11 @@
 		1BF2FF052B6DC4C6004895CB /* NavegacaoSimples12.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF2FF042B6DC4C6004895CB /* NavegacaoSimples12.swift */; };
 		1BF2FF072B6EFDDE004895CB /* NavigationView13.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF2FF062B6EFDDE004895CB /* NavigationView13.swift */; };
 		1BF2FF092B6F2AFD004895CB /* Toggle_14.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF2FF082B6F2AFD004895CB /* Toggle_14.swift */; };
+		1BF2FF0B2B6F7CEA004895CB /* DatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF2FF0A2B6F7CEA004895CB /* DatePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B4D53E32B70661E00F642A4 /* StepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperView.swift; sourceTree = "<group>"; };
 		1BF2FEF12B6DC36A004895CB /* iOS_course_backfront.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_course_backfront.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BF2FEF42B6DC36A004895CB /* iOS_course_backfrontApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_course_backfrontApp.swift; sourceTree = "<group>"; };
 		1BF2FEF62B6DC36A004895CB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -27,6 +30,7 @@
 		1BF2FF042B6DC4C6004895CB /* NavegacaoSimples12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavegacaoSimples12.swift; sourceTree = "<group>"; };
 		1BF2FF062B6EFDDE004895CB /* NavigationView13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView13.swift; sourceTree = "<group>"; };
 		1BF2FF082B6F2AFD004895CB /* Toggle_14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toggle_14.swift; sourceTree = "<group>"; };
+		1BF2FF0A2B6F7CEA004895CB /* DatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +47,7 @@
 		1BF2FEE82B6DC36A004895CB = {
 			isa = PBXGroup;
 			children = (
+				1B4D53E32B70661E00F642A4 /* StepperView.swift */,
 				1BF2FEF32B6DC36A004895CB /* iOS_course_backfront */,
 				1BF2FEF22B6DC36A004895CB /* Products */,
 			);
@@ -62,9 +67,10 @@
 				1BF2FEF42B6DC36A004895CB /* iOS_course_backfrontApp.swift */,
 				1BF2FF022B6DC3AD004895CB /* LoginScreen.swift */,
 				1BF2FEF62B6DC36A004895CB /* ContentView.swift */,
+				1BF2FF042B6DC4C6004895CB /* NavegacaoSimples12.swift */,
 				1BF2FF062B6EFDDE004895CB /* NavigationView13.swift */,
 				1BF2FF082B6F2AFD004895CB /* Toggle_14.swift */,
-				1BF2FF042B6DC4C6004895CB /* NavegacaoSimples12.swift */,
+				1BF2FF0A2B6F7CEA004895CB /* DatePicker.swift */,
 				1BF2FEF82B6DC36B004895CB /* Assets.xcassets */,
 				1BF2FEFA2B6DC36B004895CB /* Preview Content */,
 			);
@@ -150,6 +156,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BF2FF092B6F2AFD004895CB /* Toggle_14.swift in Sources */,
+				1BF2FF0B2B6F7CEA004895CB /* DatePicker.swift in Sources */,
+				1B4D53E42B70661E00F642A4 /* StepperView.swift in Sources */,
 				1BF2FF052B6DC4C6004895CB /* NavegacaoSimples12.swift in Sources */,
 				1BF2FF072B6EFDDE004895CB /* NavigationView13.swift in Sources */,
 				1BF2FEF72B6DC36A004895CB /* ContentView.swift in Sources */,
