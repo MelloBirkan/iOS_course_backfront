@@ -14,6 +14,8 @@
 		1B4D540F2B71459C00F642A4 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4D540E2B71459C00F642A4 /* DetailView.swift */; };
 		1B4D54112B7726AD00F642A4 /* BottomSheetScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4D54102B7726AD00F642A4 /* BottomSheetScreen.swift */; };
 		1B4D54132B77287900F642A4 /* TabScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4D54122B77287900F642A4 /* TabScreen.swift */; };
+		1BD742922B8461EB00FBBF72 /* ForEachScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD742912B8461EB00FBBF72 /* ForEachScreen.swift */; };
+		1BD742942B84643400FBBF72 /* ScrollScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD742932B84643400FBBF72 /* ScrollScreen.swift */; };
 		1BF2FEF52B6DC36A004895CB /* iOS_course_backfrontApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF2FEF42B6DC36A004895CB /* iOS_course_backfrontApp.swift */; };
 		1BF2FEF72B6DC36A004895CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF2FEF62B6DC36A004895CB /* ContentView.swift */; };
 		1BF2FEF92B6DC36B004895CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BF2FEF82B6DC36B004895CB /* Assets.xcassets */; };
@@ -33,6 +35,8 @@
 		1B4D540E2B71459C00F642A4 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		1B4D54102B7726AD00F642A4 /* BottomSheetScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetScreen.swift; sourceTree = "<group>"; };
 		1B4D54122B77287900F642A4 /* TabScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabScreen.swift; sourceTree = "<group>"; };
+		1BD742912B8461EB00FBBF72 /* ForEachScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachScreen.swift; sourceTree = "<group>"; };
+		1BD742932B84643400FBBF72 /* ScrollScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollScreen.swift; sourceTree = "<group>"; };
 		1BF2FEF12B6DC36A004895CB /* iOS_course_backfront.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_course_backfront.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BF2FEF42B6DC36A004895CB /* iOS_course_backfrontApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_course_backfrontApp.swift; sourceTree = "<group>"; };
 		1BF2FEF62B6DC36A004895CB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -59,8 +63,8 @@
 		1BF2FEE82B6DC36A004895CB = {
 			isa = PBXGroup;
 			children = (
-				1B4D54102B7726AD00F642A4 /* BottomSheetScreen.swift */,
-				1B4D54122B77287900F642A4 /* TabScreen.swift */,
+				1BD742912B8461EB00FBBF72 /* ForEachScreen.swift */,
+				1BD742932B84643400FBBF72 /* ScrollScreen.swift */,
 				1BF2FEF32B6DC36A004895CB /* iOS_course_backfront */,
 				1BF2FEF22B6DC36A004895CB /* Products */,
 			);
@@ -78,6 +82,8 @@
 			isa = PBXGroup;
 			children = (
 				1B4D53E32B70661E00F642A4 /* StepperView16.swift */,
+				1B4D54102B7726AD00F642A4 /* BottomSheetScreen.swift */,
+				1B4D54122B77287900F642A4 /* TabScreen.swift */,
 				1B4D53E52B7068BF00F642A4 /* ProgressScreen17.swift */,
 				1B4D53E72B706E0A00F642A4 /* ImageScreen.swift */,
 				1BF2FEF42B6DC36A004895CB /* iOS_course_backfrontApp.swift */,
@@ -180,10 +186,12 @@
 				1B4D53E42B70661E00F642A4 /* StepperView16.swift in Sources */,
 				1B4D53E62B7068BF00F642A4 /* ProgressScreen17.swift in Sources */,
 				1BF2FF052B6DC4C6004895CB /* NavegacaoSimples12.swift in Sources */,
+				1BD742922B8461EB00FBBF72 /* ForEachScreen.swift in Sources */,
 				1BF2FF072B6EFDDE004895CB /* NavigationView13.swift in Sources */,
 				1BF2FEF72B6DC36A004895CB /* ContentView.swift in Sources */,
 				1B4D54132B77287900F642A4 /* TabScreen.swift in Sources */,
 				1B4D54112B7726AD00F642A4 /* BottomSheetScreen.swift in Sources */,
+				1BD742942B84643400FBBF72 /* ScrollScreen.swift in Sources */,
 				1BF2FEF52B6DC36A004895CB /* iOS_course_backfrontApp.swift in Sources */,
 				1B4D53EA2B70923600F642A4 /* NavigationStackScreen.swift in Sources */,
 				1BF2FF032B6DC3AD004895CB /* LoginScreen.swift in Sources */,
