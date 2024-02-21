@@ -63,8 +63,6 @@
 		1BF2FEE82B6DC36A004895CB = {
 			isa = PBXGroup;
 			children = (
-				1BD742912B8461EB00FBBF72 /* ForEachScreen.swift */,
-				1BD742932B84643400FBBF72 /* ScrollScreen.swift */,
 				1BF2FEF32B6DC36A004895CB /* iOS_course_backfront */,
 				1BF2FEF22B6DC36A004895CB /* Products */,
 			);
@@ -84,7 +82,9 @@
 				1B4D53E32B70661E00F642A4 /* StepperView16.swift */,
 				1B4D54102B7726AD00F642A4 /* BottomSheetScreen.swift */,
 				1B4D54122B77287900F642A4 /* TabScreen.swift */,
+				1BD742912B8461EB00FBBF72 /* ForEachScreen.swift */,
 				1B4D53E52B7068BF00F642A4 /* ProgressScreen17.swift */,
+				1BD742932B84643400FBBF72 /* ScrollScreen.swift */,
 				1B4D53E72B706E0A00F642A4 /* ImageScreen.swift */,
 				1BF2FEF42B6DC36A004895CB /* iOS_course_backfrontApp.swift */,
 				1BF2FF022B6DC3AD004895CB /* LoginScreen.swift */,
